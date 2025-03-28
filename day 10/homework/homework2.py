@@ -1,0 +1,1 @@
+#for loops და while loops შორის განსხვავება ის არის რომ for loopში იზრდება რიცხვი და while loop  მცირდება
