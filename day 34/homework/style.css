@@ -1,0 +1,33 @@
+/* here Imade first titles style and made it more beautyful */
+#title{
+    color: rgb(66, 53, 146);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: 500;
+    font-style: italic;
+}
+/* and here I styled my paragraph about myslef */
+#information{
+    color: rgb(66, 53, 146);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    font-style: italic;
+}
+/* here I styled second title and made it more good */
+#title-2{
+    color: rgb(66, 53, 146);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: 500;
+    font-style: italic;
+}
+/* and last I did is I styled paragraph about my hobbies */
+#hobbies{
+    color: rgb(66, 53, 146);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    font-style: italic;
+}
+
