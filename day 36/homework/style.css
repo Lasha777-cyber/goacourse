@@ -1,0 +1,81 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.divcontainer {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-1 {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+
+    background-image: url('/images/audi.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 15px black;
+}
+
+.card-1 h2 {
+    color: #0b0b0b;
+    font-size: 28px;
+    text-shadow: 10px 10px 15px black;
+}
+
+.card-2 {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+
+    background-image: url('/images/porche.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 15px black;
+}
+
+.card-2 h2 {
+    color: #0b0b0b;
+    font-size: 28px;
+    text-shadow: 10px 10px 15px black;
+}
+
+.card-3 {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+
+    background-image: url('/images/mercedes.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 15px black;
+}
+
+.card-3 h2 {
+    color: #0b0b0b;
+    font-size: 28px;
+    text-shadow: 10px 10px 15px black;
+}

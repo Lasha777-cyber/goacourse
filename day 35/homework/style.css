@@ -1,0 +1,49 @@
+/* first I styled first car then second and last one and made them more beautiful and perfect */
+.car{
+    color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 800;
+    
+
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.rW6Ggc2WtiEkaK6D-D_y7wHaEV&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+.car2{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    color: antiquewhite;
+    text-align: center;
+    font-weight: 800;
+    
+
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.5ytkVr4Az94gaqEwFJU0-gHaFD&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px
+}
+.car3 {
+    width: 200px;
+    height: 200px;
+    margin-top: 160px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    color: antiquewhite;
+    text-align: center;
+    font-weight: 800;
+    
+
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.F1LgfPpveO07Ntqv6NqX4wHaEA&pid=Api&P=0&h=220);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px
+    
+}
+
