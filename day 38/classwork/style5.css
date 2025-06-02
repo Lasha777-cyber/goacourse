@@ -1,0 +1,31 @@
+*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    width: 200pxpx;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mountain {
+    border: 2px solid black;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    background-size: cover;
+    box-shadow: 10px 10px 15px black;
+}
+
+.time {
+    padding-top: 20px;
+    color: deeppink;
+}
+

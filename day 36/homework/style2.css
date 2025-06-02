@@ -18,8 +18,7 @@ body {
 
 .card-1 {
     width: 300px;
-    height: 500px;
-    background-color: rgb(255, 0, 0);
+    height: 500px;;
     display: flex;
     justify-content: center;
     border-radius: 10px;
@@ -42,7 +41,6 @@ body {
 .card-2 {
     width: 300px;
     height: 500px;
-    background-color: rgb(255, 0, 0);
     display: flex;
     justify-content: center;
     border-radius: 10px;
@@ -65,7 +63,6 @@ body {
 .card-3 {
     width: 300px;
     height: 500px;
-    background-color: rgb(255, 0, 0);
     display: flex;
     justify-content: center;
     border-radius: 10px;

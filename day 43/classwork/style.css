@@ -1,0 +1,121 @@
+
+
+/* აქ შემოვიტანეთ ფონტ ფემილი და შევცვალეთ დაწერილი ტექსტის ვიდი და გავუწერეთ დანარჩენი მარგინი და პადინგი რათა არ არეულიყო არაფერი */
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+/* body-ში დავწერეთ მისის სიმაღლე და მოვათავსეთ ჩვენი პროექტი შუაში display flex საშვალებით და შევუჩვალეთ უკანა ფონის ფერიც */
+body{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+}
+
+/* აქ მოვარმგვალეთ ჩვენი ჩარჩოს გვერდები */
+.mainDiv{
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* ეს ზემოთა ჩარჩოს ფერი და სიდიდეა */
+.firstDiv{
+    background-color: white;
+    height:200px;
+    padding: 30px;
+}
+
+/* აქ სათაურის ფერის და სიდიდე შევცვალეთ */
+.paragraph1{
+    color:#26a8a6;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* ეს კი მეორე ხაზზე დაწერილი პარაგრაფია */
+.paragraph2{
+    color:#BEDF31;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+/* აქ მარტო ფერი შევუცვალეთ წინადადებას */
+.paragraph3{
+    color:hsl(218, 22%, 67%);
+}
+
+/* ეს ორი ჩარჩოს ერთ გვერძე რო მოვათავსოთ მაგის კოდია */
+.twoDivsTogether{
+    display: flex;
+    flex-direction: row;
+}
+
+/* მარცხენა ჩარჩოს  შევუცვალეთ ფერი */
+.first{
+    background-color: #2BB4B1;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 30px;
+    width:50%;
+}
+
+/* ეს კი სათაურის ფერი და სისქეს ასწორებს */
+.paragraph4{
+    color:white;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* ამას შევუცვალეთ ფერი */
+h2{
+    color:white;
+    margin-bottom: 10px;
+}
+
+/* ეს პატარა წინადადებას ფერს ვუცვლით */
+h2 span{
+    color:hsl(179, 61%, 52%);
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/* ეს ბოლოს დაწერილ წინადადებას უცვლის ფერს */
+.paragraph5{
+    color:white;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* აქ გავალამაზეთ ღილაკი და შევუცვალეთ ფერი */
+button{
+    background-color: #BEDF31;
+    border:none;
+    width:100%;
+    padding: 13px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+}
+
+/* ეს უკვე არის მარჯვენა მხარეს მდებარე პატარა ჩარჩო */
+.second{
+    background-color: #49BEBD;
+    padding: 30px;
+    width:50%;
+}
+
+/* და საბოლოდ ეს კი წინადადებების ფერია და განლაგება */
+.paragraph6{
+    color:hsl(204, 43%, 93%);
+    font-size: 14px;
+    margin-bottom: 3px;
+}
