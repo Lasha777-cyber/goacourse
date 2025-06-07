@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    font-family: "Karla", sans-serif;;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv {
+    width: 700px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 350px 350px ;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.topdiv {
+    background-color: white;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.topdiv h2{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.topdiv h3 {
+    color: hsl(71, 86%, 57%);
+    margin-bottom: 15px;
+}
+
+.topdiv p {
+    color: hsl(218, 22%, 67%)
+}
+
+
+
+.bottom1 {
+    background-color: hsl(179, 60%, 49%);
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+}
+
+.bottom1 h3 {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.bottom1 h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.bottom1 span {
+    color:hsl(179, 78%, 57%);
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.bottom1 p {
+    color:white;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #BEDF31;
+    border:none;
+    width:100%;
+    padding: 13px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    scale: 1.01;
+}
+
+.bottom2 {
+    background-color: #3ee0de;
+    padding: 30px;
+}
+
+.bottom2 h3 {
+    color: white;
+    margin-bottom: 8px;
+}
+
+.bottom2 p {
+    color:hsl(204, 43%, 93%);
+    font-size: 14px;
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
