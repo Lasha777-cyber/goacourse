@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    animation-name: colorchange;
+    animation-duration: 5s;
+}
+
+@keyframes colorchange {
+    from {background-color: black;}
+
+    50% {background-color: gray;}
+
+    to {background-color: rgb(46, 44, 44);}
+}
+
+/* animation name არის ანიმაციის სახელი რასაც ვიყენებთ რო შევცვალოთ ამ სეექციის ანიმაცია animation-duration არის რამდენი ხნის განმავლობაში დასრულდება ანიმაცია ANIMATION delay არის ანიმაცია თუ რამდენი ხნის მერე უნდა დაიწყოს ანიმაცია
+ */

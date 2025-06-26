@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    position: relative;
+}
+
+button {
+    position: absolute;
+    top: 300px;
+    right: 870px;
+    border: none;
+    border-radius: 100%;
+    color: white;
+    font-weight: 900px;
+    font-size: 40px;
+    padding: 30px;
+    background-color: red;
+}
+

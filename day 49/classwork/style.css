@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 300px;
+    height: 400px;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+section:active {
+    transform: translate(100px) rotate(90deg) scale(1.1);
+    
+}

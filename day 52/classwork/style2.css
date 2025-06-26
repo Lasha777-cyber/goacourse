@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(46, 44, 44);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {
+    color: white
+}
+
+.maindiv {
+    height: 35px;
+    width: 500px;
+    border: 2px solid cyan;
+    border-radius: 30px;
+}
+
+.divchild {
+    animation-name: loadingscreen;
+    animation-duration: 7s;
+}
+
+@keyframes loadingscreen {
+    from {
+        background-color: aquamarine;
+        width: 1%;
+        height: 25px;
+        border-radius: 35px;
+        margin: 4px;
+    }
+
+    30% {
+        background-color: aquamarine;
+        width: 30%;
+        height: 25px;
+        border-radius: 35px;
+        margin: 4px;
+    }
+
+    50% {
+        background-color: aquamarine;
+        width: 50%;
+        height: 25px;
+        border-radius: 35px;
+        margin: 4px;
+    }
+
+    70% {
+        background-color: aquamarine;
+        width: 70%;
+        height: 25px;
+        border-radius: 35px;
+        margin: 4px;
+    }
+
+    to {
+        background-color: aquamarine;
+        width: 100%;
+        height: 25px;
+        border-radius: 35px;
+        margin: 4px;
+    }
+}
+

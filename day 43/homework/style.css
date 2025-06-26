@@ -1,27 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
-* {
-    background-image: url(./images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family:"Red Hat Display", sans-serif;
-    margin: 0px;
-    padding: 0px;
-}
-
-.maindiv {
-    height: 100vh;
+body {
+    font-family:"Red Hat Display";
+    background-color: white;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    min-height: 100vh;
+    margin: 0;
 }
 
-h2 {
-    color: hsl(223, 47%, 23%);
-    margin-top: 35px;
-    font-weight: 900;
-    margin-bottom: 20px;
+.card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px black;
+    width: 350px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: 160px;
+    background-color: #4a6cf7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content {
+    padding: 30px;
+}
+
+h1 {
+    color: black;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+p.description {
+    color: gray;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.plan {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.plan-icon {
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:hsl(245, 75%, 52%);
+}
+
+.plan-details {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.plan-name {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.plan-price {
+    color: #6d7a8a;
+}
+
+.change-link {
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.change-link:hover{
+    color: hsl(224, 23%, 55%);
+}
+
+.proceed-btn {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.proceed-btn:hover{
+    background-color: hsl(224, 23%, 55%);
+
+}
+.cancel-btn {
+    background: none;
+    border: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+    cursor: pointer;
 }
