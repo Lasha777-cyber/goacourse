@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 300px;
+    width: 300px;
+    color: white;
+    border-radius: 50%;
+    background-color: black;
+    transition: 1s;
+}
+
+section:hover{
+    scale: 1.1;
+    border-radius: 0px;
+}
+

@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 300px;
+    width: 300px;
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+section {
+    transform: rotate(50deg) scale(1.1);
+    translate: -30px 30px;
+}
