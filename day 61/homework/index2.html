@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+     <h3>მასივის რიცხვების ჯამი:</h3>
+  <p id="result"></p>
+
+  <script>
+    // მასივის შექმნა
+    let numbers = [5, 10, 15, 20, 25];
+
+    // ჯამის შესანახი ცვლადი
+    let sum = 0;
+
+    // for ციკლით ჯამის გამოთვლა
+    for (let i = 0; i < numbers.length; i++) {
+      sum += numbers[i];
+    }
+
+    // შედეგის გამოტანა HTML-ში
+    document.getElementById("result").innerText = "ჯამი: " + sum;
+  </script>
+  
+</body>
+</html>

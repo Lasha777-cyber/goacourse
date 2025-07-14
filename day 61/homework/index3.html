@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3>დათვლის შედეგი:</h3>
+  <p id="result"></p>
+
+  <script>
+    // ხილის მასივი
+    let fruits = ["apple", "cherry", "strawberry", "apple", "orange", "Apple"];
+
+    // რომელ ხილს ვითვლით
+    let targetFruit = "apple";
+
+    // დათვლის ცვლადი
+    let count = 0;
+
+    // for ციკლი მასივზე
+    for (let i = 0; i < fruits.length; i++) {
+      // ვადარებთ ქეისის მიუხედავად (ყველა პატარა ასოთი)
+      if (fruits[i].toLowerCase() === targetFruit.toLowerCase()) {
+        count++;
+      }
+    }
+
+    // შედეგის გამოტანა
+    document.getElementById("result").innerText = `"${targetFruit}" გვხვდება: ${count} ჯერ`;
+  </script>
+  
+</body>
+</html>

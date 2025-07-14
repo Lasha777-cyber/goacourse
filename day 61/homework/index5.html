@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>მისალმებები</h2>
+  <div id="output"></div>
+
+  <script>
+    // შევქმენი მასივი სადაც სახელებია
+    let names = ["Nino", "Alice", "Charlie"];
+
+    // აქ უნდა დაიბეჭდოს შედეგები
+    let box = document.getElementById("output");
+
+    // for ციკლით გადავალ ყველაფერზე
+    for (let i = 0; i < names.length; i++) {
+      // თითო სახელზე მივულოცავ გამარჯობას
+      box.innerHTML += "Hello " + names[i] + "<br>";
+    }
+  </script>
+
+</body>
+</html>

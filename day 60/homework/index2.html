@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    // ვქმნით მასივს ფილმების სახელებით
+    let movies = ["Inception", "Titanic", "Avatar", "The Matrix", "Interstellar"];
+
+    // pop მეთოდის საშუალებით ამოვშლი სიიდან ბოლო ელემენტს და შენახულს ცვლადში
+    let removedElement = movies.pop();
+
+    // ახლა movies არის განახლებული მასივი, სადაც ბოლო ელემენტი უკვე წაშლილია
+    console.log(movies);
+
+    // pop მეთოდი აბრუნებს წაშლილ ელემენტს, ამიტომ removedElement ახლა შეიცავს "Interstellar"-ს
+    console.log(removedElement);
+</body>
+
+</html>
